@@ -1,0 +1,33 @@
+.newTakeBody {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+}
+
+.newTakeBodyWrapper {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.newTakeText {
+    width: 30%;
+}
+
+.newTakeText h2 {
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .newTakeBodyWrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .newTakeText {
+        width: 90%;
+    }
+    
+}
